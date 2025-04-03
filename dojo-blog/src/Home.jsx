@@ -15,7 +15,7 @@ const Home = () => {
         {isPending && <div className="loader"></div>}
       </div>
       <div className="home">
-        {blogs && <BlogList blogs={blogs} title="All Blogs" />}
+        {blogs && <BlogList blogs={blogs} />}
       </div>
     </>
   );
